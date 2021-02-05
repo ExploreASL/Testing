@@ -1,0 +1,27 @@
+{
+    "SeriesDescription": "user description for ground_truth",
+    "SeriesNumber": 2,
+    "AcquisitionVoxelSize": [
+        3.078125,
+        3.640625,
+        15.75
+    ],
+    "Units": "s",
+    "MagneticFieldStrength": 3,
+    "Quantity": "t2_star",
+    "DROSoftware": "ASLDRO",
+    "DROSoftwareVersion": "2.2.0",
+    "DROSoftwareUrl": [
+        "code: https://github.com/gold-standard-phantoms/asldro",
+        "pypi: https://pypi.org/project/asldro/",
+        "docs: https://asldro.readthedocs.io/"
+    ],
+    "AcquisitionDateTime": "2021-02-05T15:36:35.061920",
+    "ComplexImageComponent": "REAL",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "T2_STAR",
+        "NONE"
+    ]
+}

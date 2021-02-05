@@ -1,0 +1,30 @@
+{
+    "EchoTime": 0.005,
+    "RepetitionTime": 0.3,
+    "FlipAngle": 90.0,
+    "MrAcquisitionType": "3D",
+    "ScanningSequence": "SE",
+    "SeriesDescription": "user description for structural",
+    "SeriesNumber": 3,
+    "AcquisitionVoxelSize": [
+        1.0,
+        1.0,
+        1.0
+    ],
+    "MagneticFieldStrength": 3,
+    "DROSoftware": "ASLDRO",
+    "DROSoftwareVersion": "2.2.0",
+    "DROSoftwareUrl": [
+        "code: https://github.com/gold-standard-phantoms/asldro",
+        "pypi: https://pypi.org/project/asldro/",
+        "docs: https://asldro.readthedocs.io/"
+    ],
+    "AcquisitionDateTime": "2021-02-05T15:36:35.177843",
+    "ComplexImageComponent": "MAGNITUDE",
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "ANAT",
+        "NONE"
+    ]
+}

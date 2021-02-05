@@ -1,0 +1,39 @@
+{
+    "LabelingType": "PCASL",
+    "LabelingDuration": 1.8,
+    "LabelingEfficiency": 0.85,
+    "PostLabelingDelay": 1.8,
+    "EchoTime": 0.01,
+    "RepetitionTime": [
+        10.0,
+        5.0,
+        5.0
+    ],
+    "FlipAngle": 90.0,
+    "MrAcquisitionType": "3D",
+    "ScanningSequence": "SE",
+    "SeriesDescription": "user description for asl",
+    "SeriesNumber": 1,
+    "AcquisitionVoxelSize": [
+        3.078125,
+        3.640625,
+        15.75
+    ],
+    "MagneticFieldStrength": 3,
+    "DROSoftware": "ASLDRO",
+    "DROSoftwareVersion": "2.2.0",
+    "DROSoftwareUrl": [
+        "code: https://github.com/gold-standard-phantoms/asldro",
+        "pypi: https://pypi.org/project/asldro/",
+        "docs: https://asldro.readthedocs.io/"
+    ],
+    "AcquisitionDateTime": "2021-02-05T15:36:34.834291",
+    "ComplexImageComponent": "REAL",
+    "M0": true,
+    "ImageType": [
+        "ORIGINAL",
+        "PRIMARY",
+        "PERFUSION",
+        "NONE"
+    ]
+}
