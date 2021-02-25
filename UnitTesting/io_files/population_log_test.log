@@ -20,11 +20,42 @@ No multiple sites found, BiasField creation and normalization skipped
 030_CreateBiasfield was performed
 Loading & saving individual parameter files...  
 
+[�Warning: Registration off, spatial CoV detection unreliable]� 
+[�> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_wrp_RegisterASL>xASL_im_GetSpatialCovNativePWI', '/ExploreASL/ExploreASL/Modules/SubModule_ASL/xASL_wrp_RegisterASL.m', 645)" style="font-weight:bold">xASL_wrp_RegisterASL>xASL_im_GetSpatialCovNativePWI</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/SubModule_ASL/xASL_wrp_RegisterASL.m',645,0)">line 645</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_wrp_RegisterASL', '/ExploreASL/ExploreASL/Modules/SubModule_ASL/xASL_wrp_RegisterASL.m', 392)" style="font-weight:bold">xASL_wrp_RegisterASL</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/SubModule_ASL/xASL_wrp_RegisterASL.m',392,0)">line 392</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_ASL', '/ExploreASL/ExploreASL/Modules/xASL_module_ASL.m', 292)" style="font-weight:bold">xASL_module_ASL</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/xASL_module_ASL.m',292,0)">line 292</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',361,0)">line 361</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '/ExploreASL/ExploreASL/ExploreASL_Master.m', 141)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL_Master.m',141,0)">line 141</a>)]� 
+
 Printing summary of ASL4D DICOM values
 Loading & saving individual parameter files...  
 
 Printing summary of M0 DICOM values
 Loading AcquisitionTimes:  
+
+ERROR: Job iteration terminated!
+
+ans =
+
+
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Structural', '/ExploreASL/ExploreASL/Modules/xASL_module_Structural.m', 198)" style="font-weight:bold">xASL_module_Structural</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/xASL_module_Structural.m',198,0)">line 198</a>)
+piet
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',361,0)">line 361</a>)
+				[result, x] = jobfn(x); % [result, x] = jobfn(x, job_ex);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',100,0)">line 100</a>)
+	[bAborted, xOut] = runIteration(dbSettings);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '/ExploreASL/ExploreASL/ExploreASL_Master.m', 106)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL_Master.m',106,0)">line 106</a>)
+        [~, x] = xASL_Iteration(x,'xASL_module_Structural');
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', '/ExploreASL/ExploreASL/ExploreASL.m', 33)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL.m',33,0)">line 33</a>)
+x = ExploreASL_Master(var1, var2, var3, var4, var5, var6);
+
+
+CONT: but continue with next iteration!
 
 040_GetDICOMStatistics was performed
 Printing csv-files with volume statistics...  
