@@ -1,0 +1,201 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Starting xASL_module_Population at 19-Feb-2021 12:25:39
+
+Too few images (4) for creating templates/parametric images, skipping...
+010_CreatePopulationTemplates was performed
+
+====================================================================================
+Printing file reports... Check this for a summary of missing files
+Detected: no FLAIR : MoCo results : M0 
+Checking native space: anat files:   , ASL files:   
+Checking common space: anat files:   , ASL files:   , checking lock files:   
+Please check missing MNI_session files: /analysis/Missing_MNI_session_files.csv
+Please check missing Lock files: /analysis/Missing_Lock_files.csv
+Done generating file reports
+====================================================================================
+Too few subjects (4) to create population-based analysis mask
+020_CreateAnalysisMask was performed
+No multiple sites found, BiasField creation and normalization skipped
+030_CreateBiasfield was performed
+Loading & saving individual parameter files...  
+
+Printing summary of ASL4D DICOM values
+Loading & saving individual parameter files...  
+
+Printing summary of M0 DICOM values
+Loading AcquisitionTimes:  
+
+040_GetDICOMStatistics was performed
+Printing csv-files with volume statistics...  
+
+050_GetVolumeStatistics was performed
+Collecting motion metadata with motion statistics:  
+
+Saving motion plot to /analysis/Population/MotionASL/Overview_motion_pair-exclusion.jpg
+060_GetMotionStatistics was performed
+Loading & saving individual parameter files...  
+[Warning: Registration summarizing failed:] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Population', '/ExploreASL/ExploreASL/Modules/xASL_module_Population.m', 180)" style="font-weight:bold">xASL_module_Population</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/xASL_module_Population.m',180,0)">line 180</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',361,0)">line 361</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '/ExploreASL/ExploreASL/ExploreASL_Master.m', 152)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL_Master.m',152,0)">line 152</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', '/ExploreASL/ExploreASL/ExploreASL.m', 33)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL.m',33,0)">line 33</a>)] 
+Reference to non-existent field 'ASL'.
+Loading files to computing intra-scan reproducibility...  
+
+We can detect longitudinal/challenge effects larger than 23.6 mL/100g/min (=39.3%)
+We can detect longitudinal/challenge effects larger than 146 % (=139%)
+We can detect cross-sectional effects larger than 15.8 mL/100g/min (=26.4%)
+We can detect cross-sectional effects larger than 74.1 % (=70.9%)
+Converting masks:   
+
+All ASL-masking applied (susceptibility mask, vascular mask, tissue-specific mask)
+No session or subject files found
+Converting masks:   
+
+All ASL-masking applied (susceptibility mask, vascular mask, tissue-specific mask)
+No session or subject files found
+070_GetROIstatistics was performed
+[Warning: Couldnt find spatial CoV information! File missing, skipping...] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_qc_SortBySpatialCoV', '/ExploreASL/ExploreASL/Modules/SubModule_Population/xASL_qc_SortBySpatialCoV.m', 53)" style="font-weight:bold">xASL_qc_SortBySpatialCoV</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/SubModule_Population/xASL_qc_SortBySpatialCoV.m',53,0)">line 53</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Population', '/ExploreASL/ExploreASL/Modules/xASL_module_Population.m', 271)" style="font-weight:bold">xASL_module_Population</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Modules/xASL_module_Population.m',271,0)">line 271</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',361,0)">line 361</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '/ExploreASL/ExploreASL/Functions/xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/Functions/xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '/ExploreASL/ExploreASL/ExploreASL_Master.m', 152)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL_Master.m',152,0)">line 152</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', '/ExploreASL/ExploreASL/ExploreASL.m', 33)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL/ExploreASL.m',33,0)">line 33</a>)] 
+080_SortBySpatialCoV was performed
+/analysis/101_1/ASL_5/ASL4D.nii:	 37.3% -- replaced with /analysis/101_1/ASL_5/ASL4D.nii.gz
+/analysis/101_1/ASL_3/ASL4D.nii:	 51.9% -- replaced with /analysis/101_1/ASL_3/ASL4D.nii.gz
+/analysis/101_1/y_T1.nii:	 12.0% -- replaced with /analysis/101_1/y_T1.nii.gz
+/analysis/101_1/ASL_6/ASL4D.nii:	 37.5% -- replaced with /analysis/101_1/ASL_6/ASL4D.nii.gz
+/analysis/101_1/c2T1.nii:	 95.9% -- replaced with /analysis/101_1/c2T1.nii.gz
+/analysis/101_1/ASL_4/ASL4D.nii:	 52.3% -- replaced with /analysis/101_1/ASL_4/ASL4D.nii.gz
+/analysis/101_1/T1.nii:	 69.9% -- replaced with /analysis/101_1/T1.nii.gz
+/analysis/101_1/CentralWM_QC.nii:	 99.5% -- replaced with /analysis/101_1/CentralWM_QC.nii.gz
+/analysis/101_1/ASL_1/mean_control.nii:	 11.6% -- replaced with /analysis/101_1/ASL_1/mean_control.nii.gz
+/analysis/101_1/ASL_1/PWI.nii:	 10.1% -- replaced with /analysis/101_1/ASL_1/PWI.nii.gz
+/analysis/101_1/ASL_1/rM0.nii:	 11.6% -- replaced with /analysis/101_1/ASL_1/rM0.nii.gz
+/analysis/101_1/ASL_1/M0_backup.nii:	 37.9% -- replaced with /analysis/101_1/ASL_1/M0_backup.nii.gz
+/analysis/101_1/ASL_1/despiked_ASL4D.nii:	 58.7% -- replaced with /analysis/101_1/ASL_1/despiked_ASL4D.nii.gz
+/analysis/101_1/ASL_1/PWI4D.nii:	 14.2% -- replaced with /analysis/101_1/ASL_1/PWI4D.nii.gz
+/analysis/101_1/ASL_1/PVcsf.nii:	 26.2% -- replaced with /analysis/101_1/ASL_1/PVcsf.nii.gz
+/analysis/101_1/ASL_1/PVwm.nii:	 30.1% -- replaced with /analysis/101_1/ASL_1/PVwm.nii.gz
+/analysis/101_1/ASL_1/SliceGradient.nii:	 99.5% -- replaced with /analysis/101_1/ASL_1/SliceGradient.nii.gz
+/analysis/101_1/ASL_1/ASL4D.nii:	 40.2% -- replaced with /analysis/101_1/ASL_1/ASL4D.nii.gz
+/analysis/101_1/ASL_1/y_ASL.nii:	 11.9% -- replaced with /analysis/101_1/ASL_1/y_ASL.nii.gz
+/analysis/101_1/ASL_1/ASL4D_Source.nii:	 40.1% -- replaced with /analysis/101_1/ASL_1/ASL4D_Source.nii.gz
+/analysis/101_1/ASL_1/M0.nii:	 11.6% -- replaced with /analysis/101_1/ASL_1/M0.nii.gz
+/analysis/101_1/ASL_1/PVgm.nii:	 27.2% -- replaced with /analysis/101_1/ASL_1/PVgm.nii.gz
+/analysis/101_1/LeftRight.nii:	 98.8% -- replaced with /analysis/101_1/LeftRight.nii.gz
+/analysis/101_1/ASL_2/mean_control.nii:	 16.1% -- replaced with /analysis/101_1/ASL_2/mean_control.nii.gz
+/analysis/101_1/ASL_2/PWI.nii:	 14.0% -- replaced with /analysis/101_1/ASL_2/PWI.nii.gz
+/analysis/101_1/ASL_2/rM0.nii:	 16.1% -- replaced with /analysis/101_1/ASL_2/rM0.nii.gz
+/analysis/101_1/ASL_2/M0_backup.nii:	 38.5% -- replaced with /analysis/101_1/ASL_2/M0_backup.nii.gz
+/analysis/101_1/ASL_2/PWI4D.nii:	 18.5% -- replaced with /analysis/101_1/ASL_2/PWI4D.nii.gz
+/analysis/101_1/ASL_2/PVcsf.nii:	 25.6% -- replaced with /analysis/101_1/ASL_2/PVcsf.nii.gz
+/analysis/101_1/ASL_2/PVwm.nii:	 29.5% -- replaced with /analysis/101_1/ASL_2/PVwm.nii.gz
+/analysis/101_1/ASL_2/SliceGradient.nii:	 99.5% -- replaced with /analysis/101_1/ASL_2/SliceGradient.nii.gz
+/analysis/101_1/ASL_2/ASL4D.nii:	 59.6% -- replaced with /analysis/101_1/ASL_2/ASL4D.nii.gz
+/analysis/101_1/ASL_2/y_ASL.nii:	 11.9% -- replaced with /analysis/101_1/ASL_2/y_ASL.nii.gz
+/analysis/101_1/ASL_2/ASL4D_Source.nii:	 40.7% -- replaced with /analysis/101_1/ASL_2/ASL4D_Source.nii.gz
+/analysis/101_1/ASL_2/M0.nii:	 16.1% -- replaced with /analysis/101_1/ASL_2/M0.nii.gz
+/analysis/101_1/ASL_2/PVgm.nii:	 26.5% -- replaced with /analysis/101_1/ASL_2/PVgm.nii.gz
+/analysis/101_1/c1T1.nii:	 94.0% -- replaced with /analysis/101_1/c1T1.nii.gz
+/analysis/101_1/c3T1.nii:	 96.5% -- replaced with /analysis/101_1/c3T1.nii.gz
+/analysis/101_2/ASL_5/ASL4D.nii:	 37.3% -- replaced with /analysis/101_2/ASL_5/ASL4D.nii.gz
+/analysis/101_2/ASL_3/ASL4D.nii:	 51.9% -- replaced with /analysis/101_2/ASL_3/ASL4D.nii.gz
+/analysis/101_2/y_T1.nii:	 12.0% -- replaced with /analysis/101_2/y_T1.nii.gz
+/analysis/101_2/ASL_6/ASL4D.nii:	 37.5% -- replaced with /analysis/101_2/ASL_6/ASL4D.nii.gz
+/analysis/101_2/c2T1.nii:	 95.9% -- replaced with /analysis/101_2/c2T1.nii.gz
+/analysis/101_2/ASL_4/ASL4D.nii:	 52.3% -- replaced with /analysis/101_2/ASL_4/ASL4D.nii.gz
+/analysis/101_2/T1.nii:	 69.9% -- replaced with /analysis/101_2/T1.nii.gz
+/analysis/101_2/CentralWM_QC.nii:	 99.5% -- replaced with /analysis/101_2/CentralWM_QC.nii.gz
+/analysis/101_2/ASL_1/mean_control.nii:	 11.6% -- replaced with /analysis/101_2/ASL_1/mean_control.nii.gz
+/analysis/101_2/ASL_1/PWI.nii:	 10.1% -- replaced with /analysis/101_2/ASL_1/PWI.nii.gz
+/analysis/101_2/ASL_1/rM0.nii:	 11.6% -- replaced with /analysis/101_2/ASL_1/rM0.nii.gz
+/analysis/101_2/ASL_1/M0_backup.nii:	 37.9% -- replaced with /analysis/101_2/ASL_1/M0_backup.nii.gz
+/analysis/101_2/ASL_1/despiked_ASL4D.nii:	 58.7% -- replaced with /analysis/101_2/ASL_1/despiked_ASL4D.nii.gz
+/analysis/101_2/ASL_1/PWI4D.nii:	 14.2% -- replaced with /analysis/101_2/ASL_1/PWI4D.nii.gz
+/analysis/101_2/ASL_1/PVcsf.nii:	 26.2% -- replaced with /analysis/101_2/ASL_1/PVcsf.nii.gz
+/analysis/101_2/ASL_1/PVwm.nii:	 30.1% -- replaced with /analysis/101_2/ASL_1/PVwm.nii.gz
+/analysis/101_2/ASL_1/SliceGradient.nii:	 99.5% -- replaced with /analysis/101_2/ASL_1/SliceGradient.nii.gz
+/analysis/101_2/ASL_1/ASL4D.nii:	 40.2% -- replaced with /analysis/101_2/ASL_1/ASL4D.nii.gz
+/analysis/101_2/ASL_1/y_ASL.nii:	 11.9% -- replaced with /analysis/101_2/ASL_1/y_ASL.nii.gz
+/analysis/101_2/ASL_1/ASL4D_Source.nii:	 40.1% -- replaced with /analysis/101_2/ASL_1/ASL4D_Source.nii.gz
+/analysis/101_2/ASL_1/M0.nii:	 11.6% -- replaced with /analysis/101_2/ASL_1/M0.nii.gz
+/analysis/101_2/ASL_1/PVgm.nii:	 27.2% -- replaced with /analysis/101_2/ASL_1/PVgm.nii.gz
+/analysis/101_2/LeftRight.nii:	 98.8% -- replaced with /analysis/101_2/LeftRight.nii.gz
+/analysis/101_2/ASL_2/mean_control.nii:	 16.1% -- replaced with /analysis/101_2/ASL_2/mean_control.nii.gz
+/analysis/101_2/ASL_2/PWI.nii:	 14.0% -- replaced with /analysis/101_2/ASL_2/PWI.nii.gz
+/analysis/101_2/ASL_2/rM0.nii:	 16.1% -- replaced with /analysis/101_2/ASL_2/rM0.nii.gz
+/analysis/101_2/ASL_2/M0_backup.nii:	 38.5% -- replaced with /analysis/101_2/ASL_2/M0_backup.nii.gz
+/analysis/101_2/ASL_2/PWI4D.nii:	 18.5% -- replaced with /analysis/101_2/ASL_2/PWI4D.nii.gz
+/analysis/101_2/ASL_2/PVcsf.nii:	 25.6% -- replaced with /analysis/101_2/ASL_2/PVcsf.nii.gz
+/analysis/101_2/ASL_2/PVwm.nii:	 29.5% -- replaced with /analysis/101_2/ASL_2/PVwm.nii.gz
+/analysis/101_2/ASL_2/SliceGradient.nii:	 99.5% -- replaced with /analysis/101_2/ASL_2/SliceGradient.nii.gz
+/analysis/101_2/ASL_2/ASL4D.nii:	 59.6% -- replaced with /analysis/101_2/ASL_2/ASL4D.nii.gz
+/analysis/101_2/ASL_2/y_ASL.nii:	 11.9% -- replaced with /analysis/101_2/ASL_2/y_ASL.nii.gz
+/analysis/101_2/ASL_2/ASL4D_Source.nii:	 40.7% -- replaced with /analysis/101_2/ASL_2/ASL4D_Source.nii.gz
+/analysis/101_2/ASL_2/M0.nii:	 16.1% -- replaced with /analysis/101_2/ASL_2/M0.nii.gz
+/analysis/101_2/ASL_2/PVgm.nii:	 26.5% -- replaced with /analysis/101_2/ASL_2/PVgm.nii.gz
+/analysis/101_2/c1T1.nii:	 94.0% -- replaced with /analysis/101_2/c1T1.nii.gz
+/analysis/101_2/c3T1.nii:	 96.5% -- replaced with /analysis/101_2/c3T1.nii.gz
+/analysis/Population/mean_control_101_2_ASL_2.nii:	 19.4% -- replaced with /analysis/Population/mean_control_101_2_ASL_2.nii.gz
+/analysis/Population/mrc2T1_101_1.nii:	 84.0% -- replaced with /analysis/Population/mrc2T1_101_1.nii.gz
+/analysis/Population/SD_101_2_ASL_1.nii:	 21.7% -- replaced with /analysis/Population/SD_101_2_ASL_1.nii.gz
+/analysis/Population/PWI_part2_101_2_ASL_2.nii:	 18.7% -- replaced with /analysis/Population/PWI_part2_101_2_ASL_2.nii.gz
+/analysis/Population/SliceGradient_101_2_ASL_1.nii:	 92.3% -- replaced with /analysis/Population/SliceGradient_101_2_ASL_1.nii.gz
+/analysis/Population/SNR_101_2_ASL_2.nii:	 41.5% -- replaced with /analysis/Population/SNR_101_2_ASL_2.nii.gz
+/analysis/Population/SD_101_1_ASL_1.nii:	 21.7% -- replaced with /analysis/Population/SD_101_1_ASL_1.nii.gz
+/analysis/Population/SliceGradient_101_1_ASL_2.nii:	 93.0% -- replaced with /analysis/Population/SliceGradient_101_1_ASL_2.nii.gz
+/analysis/Population/mrc3T1_101_1.nii:	 88.3% -- replaced with /analysis/Population/mrc3T1_101_1.nii.gz
+/analysis/Population/SliceGradient_extrapolated_101_2_ASL_2.nii:	 95.9% -- replaced with /analysis/Population/SliceGradient_extrapolated_101_2_ASL_2.nii.gz
+/analysis/Population/PWI4D_101_1_ASL_1.nii:	 23.5% -- replaced with /analysis/Population/PWI4D_101_1_ASL_1.nii.gz
+/analysis/Population/PWI_part1_101_2_ASL_2.nii:	 20.8% -- replaced with /analysis/Population/PWI_part1_101_2_ASL_2.nii.gz
+/analysis/Population/PWI4D_101_2_ASL_2.nii:	 24.7% -- replaced with /analysis/Population/PWI4D_101_2_ASL_2.nii.gz
+/analysis/Population/SliceGradient_extrapolated_101_2_ASL_1.nii:	 95.4% -- replaced with /analysis/Population/SliceGradient_extrapolated_101_2_ASL_1.nii.gz
+/analysis/Population/mrc2T1_101_2.nii:	 84.0% -- replaced with /analysis/Population/mrc2T1_101_2.nii.gz
+/analysis/Population/rT1_101_2.nii:	 10.4% -- replaced with /analysis/Population/rT1_101_2.nii.gz
+/analysis/Population/rc2T1_101_2.nii:	 84.3% -- replaced with /analysis/Population/rc2T1_101_2.nii.gz
+/analysis/Population/PWI_part1_101_1_ASL_1.nii:	 19.5% -- replaced with /analysis/Population/PWI_part1_101_1_ASL_1.nii.gz
+/analysis/Population/mrc1T1_101_1.nii:	 80.5% -- replaced with /analysis/Population/mrc1T1_101_1.nii.gz
+/analysis/Population/mean_control_101_1_ASL_1.nii:	 20.0% -- replaced with /analysis/Population/mean_control_101_1_ASL_1.nii.gz
+/analysis/Population/rc2T1_101_1.nii:	 84.3% -- replaced with /analysis/Population/rc2T1_101_1.nii.gz
+/analysis/Population/SNR_101_2_ASL_1.nii:	 41.1% -- replaced with /analysis/Population/SNR_101_2_ASL_1.nii.gz
+/analysis/Population/mrc3T1_101_2.nii:	 88.3% -- replaced with /analysis/Population/mrc3T1_101_2.nii.gz
+/analysis/Population/rc3T1_101_2.nii:	 85.3% -- replaced with /analysis/Population/rc3T1_101_2.nii.gz
+/analysis/Population/rc1T1_101_2.nii:	 78.9% -- replaced with /analysis/Population/rc1T1_101_2.nii.gz
+/analysis/Population/mean_control_101_2_ASL_1.nii:	 20.0% -- replaced with /analysis/Population/mean_control_101_2_ASL_1.nii.gz
+/analysis/Population/PV_pWM_101_2.nii:	 76.3% -- replaced with /analysis/Population/PV_pWM_101_2.nii.gz
+/analysis/Population/SliceGradient_extrapolated_101_1_ASL_2.nii:	 95.9% -- replaced with /analysis/Population/SliceGradient_extrapolated_101_1_ASL_2.nii.gz
+/analysis/Population/mrc1T1_101_2.nii:	 80.5% -- replaced with /analysis/Population/mrc1T1_101_2.nii.gz
+/analysis/Population/PV_pGM_101_1.nii:	 70.4% -- replaced with /analysis/Population/PV_pGM_101_1.nii.gz
+/analysis/Population/PWI_101_2_ASL_1.nii:	 19.1% -- replaced with /analysis/Population/PWI_101_2_ASL_1.nii.gz
+/analysis/Population/SNR_101_1_ASL_2.nii:	 41.5% -- replaced with /analysis/Population/SNR_101_1_ASL_2.nii.gz
+/analysis/Population/rc1T1_101_1.nii:	 78.9% -- replaced with /analysis/Population/rc1T1_101_1.nii.gz
+/analysis/Population/PWI_part2_101_2_ASL_1.nii:	 19.7% -- replaced with /analysis/Population/PWI_part2_101_2_ASL_1.nii.gz
+/analysis/Population/PWI_101_2_ASL_2.nii:	 18.8% -- replaced with /analysis/Population/PWI_101_2_ASL_2.nii.gz
+/analysis/Population/mean_control_101_1_ASL_2.nii:	 19.4% -- replaced with /analysis/Population/mean_control_101_1_ASL_2.nii.gz
+/analysis/Population/PWI_part2_101_1_ASL_2.nii:	 18.7% -- replaced with /analysis/Population/PWI_part2_101_1_ASL_2.nii.gz
+/analysis/Population/rT1_101_1.nii:	 10.4% -- replaced with /analysis/Population/rT1_101_1.nii.gz
+/analysis/Population/PWI_part1_101_1_ASL_2.nii:	 20.8% -- replaced with /analysis/Population/PWI_part1_101_1_ASL_2.nii.gz
+/analysis/Population/PWI4D_101_2_ASL_1.nii:	 23.5% -- replaced with /analysis/Population/PWI4D_101_2_ASL_1.nii.gz
+/analysis/Population/PWI_101_1_ASL_1.nii:	 19.1% -- replaced with /analysis/Population/PWI_101_1_ASL_1.nii.gz
+/analysis/Population/SliceGradient_extrapolated_101_1_ASL_1.nii:	 95.4% -- replaced with /analysis/Population/SliceGradient_extrapolated_101_1_ASL_1.nii.gz
+/analysis/Population/SliceGradient_101_2_ASL_2.nii:	 93.0% -- replaced with /analysis/Population/SliceGradient_101_2_ASL_2.nii.gz
+/analysis/Population/PV_pWM_101_1.nii:	 76.3% -- replaced with /analysis/Population/PV_pWM_101_1.nii.gz
+/analysis/Population/rc3T1_101_1.nii:	 85.3% -- replaced with /analysis/Population/rc3T1_101_1.nii.gz
+/analysis/Population/SliceGradient_101_1_ASL_1.nii:	 92.3% -- replaced with /analysis/Population/SliceGradient_101_1_ASL_1.nii.gz
+/analysis/Population/PWI_part2_101_1_ASL_1.nii:	 19.7% -- replaced with /analysis/Population/PWI_part2_101_1_ASL_1.nii.gz
+/analysis/Population/PWI4D_101_1_ASL_2.nii:	 24.7% -- replaced with /analysis/Population/PWI4D_101_1_ASL_2.nii.gz
+/analysis/Population/PWI_101_1_ASL_2.nii:	 18.8% -- replaced with /analysis/Population/PWI_101_1_ASL_2.nii.gz
+/analysis/Population/SD_101_2_ASL_2.nii:	 23.0% -- replaced with /analysis/Population/SD_101_2_ASL_2.nii.gz
+/analysis/Population/SNR_101_1_ASL_1.nii:	 41.1% -- replaced with /analysis/Population/SNR_101_1_ASL_1.nii.gz
+/analysis/Population/SD_101_1_ASL_2.nii:	 23.0% -- replaced with /analysis/Population/SD_101_1_ASL_2.nii.gz
+/analysis/Population/PV_pGM_101_2.nii:	 70.4% -- replaced with /analysis/Population/PV_pGM_101_2.nii.gz
+/analysis/Population/PWI_part1_101_2_ASL_1.nii:	 19.5% -- replaced with /analysis/Population/PWI_part1_101_2_ASL_1.nii.gz
+090_DeleteAndZip was performed
+
+Job-iteration 1 stopped at 19-Feb-2021 12:28:22 and took 164 seconds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

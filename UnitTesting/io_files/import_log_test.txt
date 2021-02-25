@@ -1,0 +1,109 @@
+
+Matching files:
+    'Sub1/ASL'
+    'Sub1/M0'
+
+#=2
+Running import (i.e. dcm2niiX)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Importing subject=Sub1_1:   
+>>> Subject=Sub1, visit=1, session=1, scan=ASL4D
+executing: ['/dcm2nii-lx64'  -o '/dcm2nii_temp_ASL4D' '/Sub1/ASL/00001.dcm']
+Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 10 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 0.1:0
+ Philips Scaling Values RS:RI:SS = 0.1:0:10 (see PMC3998685)
+Convert 10 DICOM as /dcm2nii_temp_ASL4D/ASL__20181204173011_801 (80x80x10x1)
+Conversion required 0.034074 seconds (0.015575 for core code).
+--------------------------------------------------------------------------------
+Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 10 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 0.1:0
+ Philips Scaling Values RS:RI:SS = 0.1:0:10 (see PMC3998685)
+Convert 10 DICOM as /dcm2nii_temp_ASL4D/ASL__20181204173011_801 (80x80x10x1)
+Conversion required 0.034074 seconds (0.015575 for core code).
+--------------------------------------------------------------------------------
+status: 0
+[Warning: Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 10 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 0.1:0
+ Philips Scaling Values RS:RI:SS = 0.1:0:10 (see PMC3998685)
+Convert 10 DICOM as /dcm2nii_temp_ASL4D/ASL__20181204173011_801 (80x80x10x1)
+Conversion required 0.034074 seconds (0.015575 for core code).
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>CatchErrors', '/ExploreASL/ExploreASL_ImportBIDS.m', 947)" style="font-weight:bold">ExploreASL_ImportBIDS>CatchErrors</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',947,0)">line 947</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII', '/ExploreASL/ExploreASL_ImportBIDS.m', 1352)" style="font-weight:bold">ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',1352,0)">line 1352</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS', '/ExploreASL/ExploreASL_ImportBIDS.m', 272)" style="font-weight:bold">ExploreASL_ImportBIDS</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',272,0)">line 272</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_TestBidsConversion', '/ExploreASL/Development/xASL_bids_TestBidsConversion.m', 67)" style="font-weight:bold">xASL_bids_TestBidsConversion</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_bids_TestBidsConversion.m',67,0)">line 67</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_test_BIDSFlavorsFull', '/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m', 97)" style="font-weight:bold">xASL_test_BIDSFlavorsFull</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m',97,0)">line 97</a>)] 
+Recreating parameter file: /ASL4D.json
+Field ImageType contains empty fields, skipping
+>>> Subject=Sub1, visit=1, session=1, scan=M0
+executing: ['/dcm2nii-lx64'  -o '/dcm2nii_temp_M0' '/Sub1/M0/AP0']
+Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 38 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.31746:0
+ Philips Scaling Values RS:RI:SS = 1.31746:0:0.00291533 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_601 (80x80x19x1)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.3011:0
+ Philips Scaling Values RS:RI:SS = 1.3011:0:0.00259727 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_701 (80x80x19x1)
+Conversion required 0.103885 seconds (0.045894 for core code).
+--------------------------------------------------------------------------------
+Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 38 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.31746:0
+ Philips Scaling Values RS:RI:SS = 1.31746:0:0.00291533 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_601 (80x80x19x1)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.3011:0
+ Philips Scaling Values RS:RI:SS = 1.3011:0:0.00259727 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_701 (80x80x19x1)
+Conversion required 0.103885 seconds (0.045894 for core code).
+--------------------------------------------------------------------------------
+status: 0
+[Warning: Chris Rorden's dcm2niiX version v1.0.20190902  (JP2:OpenJPEG) (JP-LS:CharLS) GCC5.5.0 (64-bit Linux)
+Found 38 DICOM file(s)
+Warning: Empty protocol name(s) (0018,1030)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.31746:0
+ Philips Scaling Values RS:RI:SS = 1.31746:0:0.00291533 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_601 (80x80x19x1)
+Warning: Unable to append protocol name (0018,1030) to filename (it is empty).
+Using RWVSlope:RWVIntercept = 1.3011:0
+ Philips Scaling Values RS:RI:SS = 1.3011:0:0.00259727 (see PMC3998685)
+Convert 19 DICOM as /dcm2nii_temp_M0/M0__20181204173011_701 (80x80x19x1)
+Conversion required 0.103885 seconds (0.045894 for core code).
+] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>CatchErrors', '/ExploreASL/ExploreASL_ImportBIDS.m', 947)" style="font-weight:bold">ExploreASL_ImportBIDS>CatchErrors</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',947,0)">line 947</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII', '/ExploreASL/ExploreASL_ImportBIDS.m', 1352)" style="font-weight:bold">ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',1352,0)">line 1352</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS', '/ExploreASL/ExploreASL_ImportBIDS.m', 272)" style="font-weight:bold">ExploreASL_ImportBIDS</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',272,0)">line 272</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_TestBidsConversion', '/ExploreASL/Development/xASL_bids_TestBidsConversion.m', 67)" style="font-weight:bold">xASL_bids_TestBidsConversion</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_bids_TestBidsConversion.m',67,0)">line 67</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_test_BIDSFlavorsFull', '/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m', 97)" style="font-weight:bold">xASL_test_BIDSFlavorsFull</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m',97,0)">line 97</a>)] 
+Recreating parameter file: /M0_1.json
+Field ImageType contains empty fields, skipping
+[Warning: xASL_adm_Dicom2JSON: Multiple scale slopes exist for a single scan!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_Dicom2JSON', '/ExploreASL/Functions/xASL_bids_Dicom2JSON.m', 510)" style="font-weight:bold">xASL_bids_Dicom2JSON</a> (<a href="matlab: opentoline('/ExploreASL/Functions/xASL_bids_Dicom2JSON.m',510,0)">line 510</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII', '/ExploreASL/ExploreASL_ImportBIDS.m', 1406)" style="font-weight:bold">ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',1406,0)">line 1406</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS', '/ExploreASL/ExploreASL_ImportBIDS.m', 272)" style="font-weight:bold">ExploreASL_ImportBIDS</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',272,0)">line 272</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_TestBidsConversion', '/ExploreASL/Development/xASL_bids_TestBidsConversion.m', 67)" style="font-weight:bold">xASL_bids_TestBidsConversion</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_bids_TestBidsConversion.m',67,0)">line 67</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_test_BIDSFlavorsFull', '/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m', 97)" style="font-weight:bold">xASL_test_BIDSFlavorsFull</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m',97,0)">line 97</a>)] 
+Recreating parameter file: /M0_2.json
+Field ImageType contains empty fields, skipping
+[Warning: xASL_adm_Dicom2JSON: Multiple scale slopes exist for a single scan!] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_Dicom2JSON', '/ExploreASL/Functions/xASL_bids_Dicom2JSON.m', 510)" style="font-weight:bold">xASL_bids_Dicom2JSON</a> (<a href="matlab: opentoline('/ExploreASL/Functions/xASL_bids_Dicom2JSON.m',510,0)">line 510</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII', '/ExploreASL/ExploreASL_ImportBIDS.m', 1406)" style="font-weight:bold">ExploreASL_ImportBIDS>ExploreASL_ImportBIDS_DCM2NII</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',1406,0)">line 1406</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ImportBIDS', '/ExploreASL/ExploreASL_ImportBIDS.m', 272)" style="font-weight:bold">ExploreASL_ImportBIDS</a> (<a href="matlab: opentoline('/ExploreASL/ExploreASL_ImportBIDS.m',272,0)">line 272</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_bids_TestBidsConversion', '/ExploreASL/Development/xASL_bids_TestBidsConversion.m', 67)" style="font-weight:bold">xASL_bids_TestBidsConversion</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_bids_TestBidsConversion.m',67,0)">line 67</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_test_BIDSFlavorsFull', '/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m', 97)" style="font-weight:bold">xASL_test_BIDSFlavorsFull</a> (<a href="matlab: opentoline('/ExploreASL/Development/xASL_test_BIDSFlavorsFull.m',97,0)">line 97</a>)] 
