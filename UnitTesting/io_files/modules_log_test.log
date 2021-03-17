@@ -261,3 +261,35 @@ Job-iteration 1 stopped at 17-Mar-2021 14:18:15 and took 1 seconds
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('file_array/subsref>subfun', '.\ExploreASL\External\SPMmodified\@file_array\subsref.m', 97)" style="font-weight:bold">file_array/subsref>subfun</a> (<a href="matlab: opentoline('.\ExploreASL\External\SPMmodified\@file_array\subsref.m',97,0)">line 97</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('file_array/subsref', '.\ExploreASL\External\SPMmodified\@file_array\subsref.m', 65)" style="font-weight:bold">file_array/subsref</a> (<a href="matlab: opentoline('.t\ExploreASL\External\SPMmodified\@file_array\subsref.m',65,0)">line 65</a>)
+    t = subfun(sobj,args{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nifti/subsref>rec', '.\ExploreASL\External\SPMmodified\@nifti\subsref.m', 221)" style="font-weight:bold">nifti/subsref>rec</a> (<a href="matlab: opentoline('.\ExploreASL\External\SPMmodified\@nifti\subsref.m',221,0)">line 221</a>)
+            t = subsref(t,subs(2:end));
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('nifti/subsref', '.\ExploreASL\External\SPMmodified\@nifti\subsref.m', 45)" style="font-weight:bold">nifti/subsref</a> (<a href="matlab: opentoline('.\ExploreASL\External\SPMmodified\@nifti\subsref.m',45,0)">line 45</a>)
+varargout = rec(opt,subs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_io_Nifti2Im', '.\ExploreASL\External\SPMmodified\xASL\xASL_io_Nifti2Im.m', 72)" style="font-weight:bold">xASL_io_Nifti2Im</a> (<a href="matlab: opentoline('.\ExploreASL\External\SPMmodified\xASL\xASL_io_Nifti2Im.m',72,0)">line 72</a>)
+        imOut = nii.dat(:,:,:,:,:,:,:,:,:,:,:,:,:,:,:,:);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Structural', '.\ExploreASL\Modules\xASL_module_Structural.m', 186)" style="font-weight:bold">xASL_module_Structural</a> (<a href="matlab: opentoline('.\ExploreASL\Modules\xASL_module_Structural.m',186,0)">line 186</a>)
+			IM = xASL_io_Nifti2Im(listFile{iFile});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '.\ExploreASL\Functions\xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('.\ExploreASL\Functions\xASL_Iteration.m',361,0)">line 361</a>)
+				[result, x] = jobfn(x); % [result, x] = jobfn(x, job_ex);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '.\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('.\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+	[bAborted, xOut] = runIteration(dbSettings);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '.\ExploreASL\ExploreASL_Master.m', 129)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('.\ExploreASL\ExploreASL_Master.m',129,0)">line 129</a>)
+        [~, x] = xASL_Iteration(x,'xASL_module_Structural');
+}
+
+
+
+
