@@ -1,4 +1,4 @@
-
+﻿
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Starting xASL_module_Population at 19-Feb-2021 12:25:39
 
@@ -230,3 +230,34 @@ No session or subject files found
 
 Job-iteration 1 stopped at 19-Feb-2021 12:28:22 and took 164 seconds
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running xASL_module_Structural ...   
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Starting xASL_module_Structural at 17-Mar-2021 14:18:14
+
+
+ERROR: Job iteration terminated!
+
+ans =
+
+    'Reference to non-existent field 'FIELD_THAT_DOES_NOT_EXIST'.
+     
+     Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Structural', '.\ExploreASL\Modules\xASL_module_Structural.m', 46)" style="font-weight:bold">xASL_module_Structural</a> (<a href="matlab: opentoline('.\ExploreASL\Modules\xASL_module_Structural.m',46,0)">line 46</a>)
+     fprintf(x.P.FIELD_THAT_DOES_NOT_EXIST);
+     
+     Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', '.\ExploreASL\Functions\xASL_Iteration.m', 361)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('.\ExploreASL\Functions\xASL_Iteration.m',361,0)">line 361</a>)
+     				[result, x] = jobfn(x); % [result, x] = jobfn(x, job_ex);
+     
+     Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', '.\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('.\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+     	[bAborted, xOut] = runIteration(dbSettings);
+     
+     Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', '.\ExploreASL\ExploreASL_Master.m', 129)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('.\ExploreASL\ExploreASL_Master.m',129,0)">line 129</a>)
+             [~, x] = xASL_Iteration(x,'xASL_module_Structural');'
+
+
+CONT: but continue with next iteration!
+
+Job-iteration 1 stopped at 17-Mar-2021 14:18:15 and took 1 seconds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
