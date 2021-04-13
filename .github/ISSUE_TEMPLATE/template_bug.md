@@ -2,18 +2,18 @@
 name: Template
 about: Template for feature and bug related issues.
 title: ''
-labels: ''
+labels: 'bug'
 assignees: ''
 
 ---
 
 ### Description
 
-Required: insert bug or feature description here
+Required: insert bug description here
 
 ### Requirements
 
-Optional: add bug or feature requirements here
+Optional: add bug requirements here
 
 ### How to test
 
