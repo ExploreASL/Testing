@@ -1,6 +1,6 @@
 ---
-name: Template
-about: Template for feature and bug related issues.
+name: Feature template
+about: Template for feature related issues.
 title: ''
 labels: 'feature'
 assignees: ''
