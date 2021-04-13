@@ -29,7 +29,7 @@ Document who is responsible for which tests here:
 
 ### Documentation
 
-Document who will update the `CHANGES.md` and the `VERSION_[x.x.x]` file using the **release notes** of each individual issue.
+Document who will update the `VERSION_[x.x.x]` and the `CHANGES.md` file using the **release notes** of each individual issue.
 
 - `CHANGES.md`: n/a
 - `VERSION.md`: n/a
