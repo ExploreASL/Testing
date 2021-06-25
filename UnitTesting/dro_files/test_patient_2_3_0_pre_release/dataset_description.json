@@ -5,7 +5,7 @@
     "License": "PD",
     "HowToAcknowledge": "Please cite this abstract: ASLDRO: Digital reference object software for Arterial Spin Labelling, A Oliver-Taylor et al., Abstract #2731, Proc. ISMRM 2021",
     "DROSoftware": "ASLDRO",
-    "DROSoftwareVersion": "v2.2.0",
+    "DROSoftwareVersion": "v2.3.0",
     "ReferencesAndLinks": [
         "code: https://github.com/gold-standard-phantoms/asldro",
         "pypi: https://pypi.org/project/asldro/",
