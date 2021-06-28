@@ -1,0 +1,118 @@
+{
+    "global_configuration": {
+        "ground_truth": {
+            "json": "C:\\Users\\m.stritt\\Documents\\Virtual Environment Python\\general\\Lib\\site-packages\\asldro\\data\\hrgt_icbm_2009a_nls_3t.json",
+            "nii": "C:\\Users\\m.stritt\\Documents\\Virtual Environment Python\\general\\Lib\\site-packages\\asldro\\data\\hrgt_icbm_2009a_nls_3t.nii.gz"
+        },
+        "image_override": {},
+        "parameter_override": {}
+    },
+    "image_series": [
+        {
+            "series_type": "asl",
+            "series_description": "user description for asl",
+            "series_parameters": {
+                "rot_x": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rot_y": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "rot_z": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "transl_x": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "transl_y": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "transl_z": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "acq_matrix": [
+                    64,
+                    64,
+                    12
+                ],
+                "label_type": "pcasl",
+                "label_duration": 1.8,
+                "signal_time": 3.6,
+                "label_efficiency": 0.85,
+                "asl_context": "m0scan control label",
+                "echo_time": [
+                    0.01,
+                    0.01,
+                    0.01
+                ],
+                "repetition_time": [
+                    10.0,
+                    5.0,
+                    5.0
+                ],
+                "acq_contrast": "se",
+                "desired_snr": 100.0,
+                "random_seed": 0,
+                "excitation_flip_angle": 90.0,
+                "inversion_flip_angle": 180.0,
+                "inversion_time": 1.0
+            }
+        },
+        {
+            "series_type": "ground_truth",
+            "series_description": "user description for ground_truth",
+            "series_parameters": {
+                "rot_x": 0.0,
+                "rot_y": 0.0,
+                "rot_z": 0.0,
+                "transl_x": 0.0,
+                "transl_y": 0.0,
+                "transl_z": 0.0,
+                "acq_matrix": [
+                    64,
+                    64,
+                    12
+                ]
+            }
+        },
+        {
+            "series_type": "structural",
+            "series_description": "user description for structural",
+            "series_parameters": {
+                "echo_time": 0.005,
+                "repetition_time": 0.3,
+                "rot_x": 0.0,
+                "rot_y": 0.0,
+                "rot_z": 0.0,
+                "transl_x": 0.0,
+                "transl_y": 0.0,
+                "transl_z": 0.0,
+                "acq_matrix": [
+                    197,
+                    233,
+                    189
+                ],
+                "acq_contrast": "se",
+                "excitation_flip_angle": 90.0,
+                "inversion_flip_angle": 180.0,
+                "inversion_time": 1.0,
+                "desired_snr": 50.0,
+                "random_seed": 0,
+                "output_image_type": "magnitude",
+                "modality": "anat"
+            }
+        }
+    ]
+}
