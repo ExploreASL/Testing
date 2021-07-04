@@ -1,0 +1,798 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=== Subject: sub-001, Session: ASL_1, Module: xASL_module_ASL_<SESSION>,  04-Jul-2021 17:45:05 ===
+
+Cleaning data to rerun subject sub-001
+nRemoving lock folders:   
+Restoring backupped _ORI (original) files:   
+Deleting native space CAT12 temporary folders:   
+Deleting native space files for module 2:   
+Deleting all standard space files for module 2
+
+Cleaning up x-struct:   
+Cleaning up QC_Collection json:   
+Digital Reference Object ASL-DRO detected
+Processing as if this is a 3D GRASE sequence
+Though the acquisition is not simulated, this will assume acquisition of a single 3D volume
+and intermediate amount of geometric distortion and smoothness
+3D_GRASE sequence detected
+No TopUp scans available, skipping...
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+Automatic alignment with center of mass: skipping, was too close
+x.SpikeRemovalThreshold was not defined yet, default setting = 0.01 used
+SPM motion estimation
+SPM12: spm_realign (v7141)                         17:45:09 - 04/07/2021
+========================================================================
+Estimating motion:   Completed                               :          17:45:50 - 04/07/2021
+Calculate & plot position & motion parameters
+
+-----------------------------------------------------------------------
+Running SPM job 'Realign: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:45:51 - 04/07/2021
+========================================================================
+Completed                               :          17:45:55 - 04/07/2021
+Done    'Realign: Reslice'
+Done
+
+Computing mean_PWI_Clipped.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          17:45:56 - 04/07/2021
+========================================================================
+ImCalc Image: <a href="matlab:spm_image('display','M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii');">M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii</a>
+Done    'Image Calculator'
+Done
+
+Computing mean_control.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          17:46:01 - 04/07/2021
+========================================================================
+ImCalc Image: <a href="matlab:spm_image('display','M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii');">M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii</a>
+Done    'Image Calculator'
+Done
+
+Clipped maximal intensity from 0.37408 to 0.34996
+Clipped minimal intensity from -0.019724 to 0.0052358
+Running ENABLE:   
+Saving motion plot to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\MotionASL\rp_sub-001_ASL_1_motion.jpg
+Saving motion plot to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\MotionASL\rp_sub-001_ASL_1_threshold_free_spike_detection.jpg
+Saving motion plot to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\MotionASL\rp_sub-001_ASL_1_PWI_motion_sorted.jpg
+Remove spike frames from nifti
+3D_GRASE NIfTI has native resolution 3.0781 3.6406 4.725, assuming PSF 1.1 1.1 1.38 this gives estimated effective resolution 3.3859 3.3859 6.5205
+Cleaning up NaNs in image:  0%
+Effective spatial resolution source image: [1  1  1] mm
+Effective spatial resolution reference image: [3.0781      3.6406       4.725] mm
+Pre-smoothing...
+
+Cleaning up NaNs in image:  0%
+Computing mean_PWI_Clipped.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          17:46:15 - 04/07/2021
+========================================================================
+ImCalc Image: <a href="matlab:spm_image('display','M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii');">M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii</a>
+Done    'Image Calculator'
+Done
+
+Computing mean_control.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Image Calculator'
+
+SPM12: spm_imcalc (v6961)                          17:46:21 - 04/07/2021
+========================================================================
+ImCalc Image: <a href="matlab:spm_image('display','M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii');">M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii</a>
+Done    'Image Calculator'
+Done
+
+Clipped maximal intensity from 0.37408 to 0.34996
+Clipped minimal intensity from -0.019724 to 0.0030616
+
+-----------------------------------------------------------------------
+Running SPM job 'Smooth'
+Done    'Smooth'
+Done
+
+Smoothed c1T1.nii with [3.08 3.08 3.08] mm FWHM Gaussian filter
+
+-----------------------------------------------------------------------
+Running SPM job 'Smooth'
+Done    'Smooth'
+Done
+
+Smoothed c2T1.nii with [3.08 3.08 3.08] mm FWHM Gaussian filter
+Voxelsize [1 1 1] mm changed to [3.0781 3.0781 3.0781] mm
+Voxelsize [1 1 1] mm changed to [3.0781 3.0781 3.0781] mm
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Trilinear interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Maps\Templates\Siemens_3DGRASE_PASL_CBF.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\Mean_CBF_Template.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Maps\Templates\ATT_BiasField.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ATT_BiasField.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Maps\Templates\MaxVesselTemplate.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\VascularArtifact_Template.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Maps\Templates\Siemens_3DGRASE_PASL_QC_mask.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\Mask_Template.nii
+ Combining transformations:
+Inverse segmentation transformation y_ASL.nii of sub-001, to space: PseudoTissue.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:46:50 - 04/07/2021
+========================================================================
+Completed                               :          17:46:50 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:46:50 - 04/07/2021
+========================================================================
+Completed                               :          17:46:50 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.2
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped_ORI.nii is co-registered
+Automatic alignment with center of mass: to XYZ:33 32 19
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:46:51 - 04/07/2021
+========================================================================
+Completed                               :          17:46:52 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:46:52 - 04/07/2021
+========================================================================
+Completed                               :          17:46:52 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=79.1
+Running Control-T1w registration
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped_ORI.nii is co-registered
+
+------------------------------------------------------------------------------------------
+
+Rigid-body registering mean_control.nii to T1.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Estimate'
+
+SPM12: spm_coreg (v6435)                           17:46:54 - 04/07/2021
+========================================================================
+Smoothing [1 1 1] into [1.73 1.73 1.73] FWHM resolution
+Smoothing [1 1 1] into [1.73 1.73 1.73] FWHM resolution for scan 1
+Registering scan 1...  
+, 
+Completed                               :          17:47:08 - 04/07/2021
+Done    'Coregister: Estimate'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:10 - 04/07/2021
+========================================================================
+Completed                               :          17:47:10 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:11 - 04/07/2021
+========================================================================
+Completed                               :          17:47:11 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.1
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:13 - 04/07/2021
+========================================================================
+Completed                               :          17:47:13 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:13 - 04/07/2021
+========================================================================
+Completed                               :          17:47:13 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.2
+Standard space whole-brain spatial CoV estimated as = 37.4%
+PseudoCBF.nii created for spatial CoV=37.4% & rescaled mean_PWI_Clipped.nii to this
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped_ORI.nii is co-registered
+
+------------------------------------------------------------------------------------------
+
+Rigid-body registering mean_PWI_Clipped.nii to PseudoCBF.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Estimate'
+
+SPM12: spm_coreg (v6435)                           17:47:15 - 04/07/2021
+========================================================================
+Smoothing [3.08 3.08 3.08] into [0 0 0] FWHM resolution
+Smoothing [3.08 3.08 3.08] into [0 0 0] FWHM resolution for scan 1
+Registering scan 1...  
+, 
+Completed                               :          17:47:27 - 04/07/2021
+Done    'Coregister: Estimate'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:29 - 04/07/2021
+========================================================================
+Completed                               :          17:47:29 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:30 - 04/07/2021
+========================================================================
+Completed                               :          17:47:30 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.4
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:31 - 04/07/2021
+========================================================================
+Completed                               :          17:47:31 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:32 - 04/07/2021
+========================================================================
+Completed                               :          17:47:32 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.4
+Standard space whole-brain spatial CoV estimated as = 37.4%
+PseudoCBF.nii created for spatial CoV=37.4% & rescaled mean_PWI_Clipped.nii to this
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_PWI_Clipped_ORI.nii is co-registered
+
+------------------------------------------------------------------------------------------
+
+Rigid-body registering mean_PWI_Clipped.nii to PseudoCBF.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Estimate'
+
+SPM12: spm_coreg (v6435)                           17:47:33 - 04/07/2021
+========================================================================
+Smoothing [3.08 3.08 3.08] into [0 0 0] FWHM resolution
+Smoothing [3.08 3.08 3.08] into [0 0 0] FWHM resolution for scan 1
+Registering scan 1...  
+, 
+Completed                               :          17:47:44 - 04/07/2021
+Done    'Coregister: Estimate'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:47 - 04/07/2021
+========================================================================
+Completed                               :          17:47:47 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:47 - 04/07/2021
+========================================================================
+Completed                               :          17:47:47 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.4
+
+------------------------------------------------------------------------------------------
+Reslicing Mask_Template.nii to mean_PWI_Clipped.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:48 - 04/07/2021
+========================================================================
+Completed                               :          17:47:48 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\MaskASL.nii
+
+------------------------------------------------------------------------------------------
+Reslicing Mean_CBF_Template.nii to mean_PWI_Clipped.nii using Trilinear interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:47:49 - 04/07/2021
+========================================================================
+Completed                               :          17:47:49 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Tanimoto Coeff=84.4
+Standard space whole-brain spatial CoV estimated as = 37.4%
+Skipping affine registration
+
+--------------------------------------------------------------------
+3 registration iterations:
+Iteration 1, Tanimoto coefficient = 84.2%
+Iteration 2, Tanimoto coefficient = 84.4%
+Iteration 3, Tanimoto coefficient = 84.4%
+--------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using 2nd B-spline interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\B0.nii skipped, was non-existing
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\Unwarped.nii skipped, was non-existing
+Transforming skipped, no files entered
+Voxelsize [3.0781 3.6406 4.725] mm changed to [3.6406 3.6406 4.725] mm
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Nearest Neighbor interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\SliceGradient.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\SliceGradient_sub-001_ASL_1.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Trilinear interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\SliceGradient_extrapolated.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\SliceGradient_extrapolated_sub-001_ASL_1.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Convert ASL time series to single precision
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using 4th degree Bspline interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\rtemp_despiked_ASL4D.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+-----------------------------------------------------------------------
+Running SPM job 'Realign: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:49:33 - 04/07/2021
+========================================================================
+Completed                               :          17:49:41 - 04/07/2021
+Done    'Realign: Reslice'
+Done
+
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using 2nd B-spline interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\mean_control_sub-001_ASL_1.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Saving in native space:
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\PWI4D.nii, M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\PWI.nii
+Saving in standard space:
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\PWI4D_sub-001_ASL_1.nii, M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\PWI_sub-001_ASL_1.nii
+Standard space SD & SNR saved, & part1 & part2 for reproducibility
+pGM>0.7: wsCV mean CBF = 0.0936%, wsCV spatial CoV = 0.00744%
+Also saved part1 & part2 for reproducibility
+Standard space spatial CoV pGM>0.7 = 24.5%
+Different T1 & ASL resolutions, adapting T1 PV maps to ASL resolution
+Voxelsize [3.0781 3.6406 4.725] mm changed to [1.5 1.5 1.5] mm
+
+------------------------------------------------------------------------------------------
+Reslicing c1T1.nii,1 to rPWI.nii,1 using 2nd B-spline interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:50:21 - 04/07/2021
+========================================================================
+Completed                               :          17:50:22 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing c2T1.nii,1 to rPWI.nii,1 using 2nd B-spline interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:50:23 - 04/07/2021
+========================================================================
+Completed                               :          17:50:24 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+3D_GRASE NIfTI has native resolution 3.0781 3.6406 4.725, assuming PSF 1.1 1.1 1.38 this gives estimated effective resolution 3.3859 3.3859 6.5205
+
+-----------------------------------------------------------------------
+Running SPM job 'Smooth'
+Done    'Smooth'
+Done
+
+Smoothed rc1T1.nii with [3.04 3.71 6.35] mm FWHM Gaussian filter
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\rc1T1.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Smooth'
+Done    'Smooth'
+Done
+
+Smoothed rc2T1.nii with [3.04 3.71 6.35] mm FWHM Gaussian filter
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\rc2T1.nii
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using 4th degree Bspline interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\rc1T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\PV_pGM_sub-001.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\rc2T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\PV_pWM_sub-001.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Effective spatial resolution source image: [1           1           1] mm
+Effective spatial resolution reference image: [3.3859      4.0047      6.5205] mm
+Pre-smoothing...
+
+Effective spatial resolution source image: [1           1           1] mm
+Effective spatial resolution reference image: [3.3859      4.0047      6.5205] mm
+Pre-smoothing...
+
+
+------------------------------------------------------------------------------------------
+Reslicing PVgm.nii to PWI.nii using 2nd B-spline interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:50:38 - 04/07/2021
+========================================================================
+Completed                               :          17:50:40 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\PVgm.nii
+
+------------------------------------------------------------------------------------------
+Reslicing PVwm.nii to PWI.nii using 2nd B-spline interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:50:40 - 04/07/2021
+========================================================================
+Completed                               :          17:50:42 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\PVwm.nii
+Effective spatial resolution source image: [1           1           1] mm
+Effective spatial resolution reference image: [3.3859      4.0047      6.5205] mm
+Pre-smoothing...
+
+
+------------------------------------------------------------------------------------------
+Reslicing PVcsf.nii to PWI.nii using 2nd B-spline interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:50:43 - 04/07/2021
+========================================================================
+Completed                               :          17:50:44 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\PVcsf.nii
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+Automatic alignment with center of mass: skipping, was too close
+
+-----------------------------------------------------------------------
+Running SPM job 'Old Segment'
+
+SPM12: spm_preproc (v4916)                         17:50:46 - 04/07/2021
+========================================================================
+Completed                               :          17:50:47 - 04/07/2021
+Done    'Old Segment'
+Done
+
+
+-----------------------------------------------------------------------
+Running SPM job 'Old Segment'
+
+SPM12: spm_preproc (v4916)                         17:50:50 - 04/07/2021
+========================================================================
+Completed                               :          17:50:50 - 04/07/2021
+Done    'Old Segment'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\mean_control.nii
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\rM0.nii is co-registered
+
+------------------------------------------------------------------------------------------
+
+Rigid-body registering rrM0.nii to mean_control.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Estimate'
+
+SPM12: spm_coreg (v6435)                           17:50:53 - 04/07/2021
+========================================================================
+Smoothing [3.08 3.64 4.73] into [0 0 0] FWHM resolution
+Smoothing [3.08 3.64 4.73] into [0 0 0] FWHM resolution for scan 1
+Registering scan 1...  
+, 
+Completed                               :          17:51:00 - 04/07/2021
+Done    'Coregister: Estimate'
+Done
+
+x.Q.TissueT1 did not exist, default=1240 used
+Single 3D M0 readout assumed
+M0 correction of incomplete T1 relaxation: TR range 10000-10000 ms, T1 WM tissue 800 ms, gives factor 1-1
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Trilinear interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\rM0.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\M0_sub-001_ASL_1.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Running new M0 processing method
+Masking M0 with structural (pGM+pWM)>0.5 & 70% non-zero sorted intensities
+Erode M0 mask with 2-voxel sphere
+Identify & remove non-smooth values at the border of the M0 mask
+Mask M0 with this mask & smooth...  Cleaning up NaNs in image:  0%
+
+Rescale the smooth biasfield GM M0 values back to non-smooth GM M0 values
+Writing M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\M0Reg_ASL\M0_im_proc_sub-001.jpg
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Trilinear interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\M0_sub-001_ASL_1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\rM0.nii
+ Combining transformations:
+Inverse segmentation transformation y_ASL.nii of sub-001, to space: PWI.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Nearest Neighbor interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\FoV.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\Population\FoV_sub-001_ASL_1.nii
+ Combining transformations:
+Segmentation transformation y_ASL.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Detecting vascular clusters with negative ASL signal:...
+
+Detecting vascular clusters with negative ASL signal:...
+
+Quantifying ASL:   
+Loading PWI & M0 images
+M0 scan used
+Delta TE between ASL 10ms & M0 10ms, for 3D_GRASE, assuming T2star decay of arterial blood, factor applied to M0: 1
+Quantification CBF single PLD:
+3D sequence, not accounting for SliceReadoutTime (homogeneous PLD for complete volume)
+Using single-compartment CASL
+[Warning: Overwriting x.Q.LabelingEfficiency=0.6885, with x.LabelingEfficiency=0.85] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_adm_LoadParms', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_adm_LoadParms.m', 187)" style="font-weight:bold">xASL_adm_LoadParms</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_adm_LoadParms.m',187,0)">line 187</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_quant_SinglePLD', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_quant_SinglePLD.m', 178)" style="font-weight:bold">xASL_quant_SinglePLD</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_quant_SinglePLD.m',178,0)">line 178</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_wrp_Quantify', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_ASL\xASL_wrp_Quantify.m', 291)" style="font-weight:bold">xASL_wrp_Quantify</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_ASL\xASL_wrp_Quantify.m',291,0)">line 291</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_ASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_ASL.m', 431)" style="font-weight:bold">xASL_module_ASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_ASL.m',431,0)">line 431</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 394)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ProcessMaster', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m', 78)" style="font-weight:bold">ExploreASL_ProcessMaster</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m',78,0)">line 78</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m', 105)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m',105,0)">line 105</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m', 14)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m',14,0)">line 14</a>)] 
+ model with parameters:
+LabelingDuration = 1800 ms, PLD (ms) = 1800
+labeling efficiency (neck*Bsup) = 0.85 * 0.81, 
+assuming labda = 0.9, T1 arterial blood = 1650 ms
+Saving PWI & CBF niftis
+Loading PWI & M0 images
+M0 scan used
+Delta TE between ASL 10ms & M0 10ms, for 3D_GRASE, assuming T2star decay of arterial blood, factor applied to M0: 1
+Quantification CBF single PLD:
+3D sequence, not accounting for SliceReadoutTime (homogeneous PLD for complete volume)
+Using single-compartment CASL
+[Warning: Overwriting x.Q.LabelingEfficiency=0.6885, with x.LabelingEfficiency=0.85] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_adm_LoadParms', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_adm_LoadParms.m', 187)" style="font-weight:bold">xASL_adm_LoadParms</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_adm_LoadParms.m',187,0)">line 187</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_quant_SinglePLD', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_quant_SinglePLD.m', 178)" style="font-weight:bold">xASL_quant_SinglePLD</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_quant_SinglePLD.m',178,0)">line 178</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_wrp_Quantify', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_ASL\xASL_wrp_Quantify.m', 291)" style="font-weight:bold">xASL_wrp_Quantify</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_ASL\xASL_wrp_Quantify.m',291,0)">line 291</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_ASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_ASL.m', 433)" style="font-weight:bold">xASL_module_ASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_ASL.m',433,0)">line 433</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 394)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ProcessMaster', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m', 78)" style="font-weight:bold">ExploreASL_ProcessMaster</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m',78,0)">line 78</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m', 105)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m',105,0)">line 105</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m', 14)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m',14,0)">line 14</a>)] 
+ model with parameters:
+LabelingDuration = 1800 ms, PLD (ms) = 1800
+labeling efficiency (neck*Bsup) = 0.85 * 0.81, 
+assuming labda = 0.9, T1 arterial blood = 1650 ms
+Saving PWI & CBF niftis
+print visual quality assurance checks
+Printing images...  Printing images...  
+Calculating SNR slope over voxels included for increasing brain probabilities:   
+
+------------------------------------------------------------------------------------------
+Reslicing Brainmask.nii to mean_control.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:51:58 - 04/07/2021
+========================================================================
+Completed                               :          17:51:59 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Voxelsize [3.0781 3.6406 4.725] mm changed to [3.6406 3.6406 4.725] mm
+
+------------------------------------------------------------------------------------------
+Reslicing Brainmask.nii to mean_controlMask.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:51:59 - 04/07/2021
+========================================================================
+Completed                               :          17:52:00 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Coverage of 85.6075Collecting QC parameters...
+LR flip found for sub-001
+
+Printing ExploreASL PDF report:   
+
+Job-iteration 1 stopped at 04-Jul-2021 17:52:07 and took 423 seconds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

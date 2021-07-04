@@ -1,0 +1,5 @@
+Transl_X	Transl_Y	Transl_Z	Rot_X	Rot_Y	Rot_Z	Scale_X	Scale_Y	Scale_Z	Shear_X	Shear_Y	Shear_Z	DetOrigin	Transl_X	Transl_Y	Transl_Z	Rot_X	Rot_Y	Rot_Z	Scale_X	Scale_Y	Scale_Z	Shear_X	Shear_Y	Shear_Z	DetCurrent	Transl_X	Transl_Y	Transl_Z	Rot_X	Rot_Y	Rot_Z	Scale_X	Scale_Y	Scale_Z	Shear_X	Shear_Y	Shear_Z	DetTransform	FileName
+99	-117	-95	0	0	0	-1	1	1	0	0	0	-1	-98.28	-133.58	-74.83	-0.02	0	0	1	1	1	0	0	0	1	0.45	-18.08	22.26	-0.02	0	0	-1	1	1	0	0	0	-1	M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\2_00_ASL_Module\Patient\derivatives\ExploreASL\sub-001\T1.nii	
+
+99	-117	-95	0	0	0	-1	1	1	0	0	0	-1	-98.28	-133.58	-74.83	-0.02	0	0	1	1	1	0	0	0	1	0.45	-18.08	22.26	-0.02	0	0	-1	1	1	0	0	0	-1	Mean	
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	StDev	
