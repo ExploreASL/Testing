@@ -1,0 +1,101 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=== Subject: sub-001, Module: xASL_module_Population,  04-Jul-2021 17:53:28 ===
+
+Digital Reference Object ASL-DRO detected
+3D_GRASE sequence detected
+Too few images (1) for creating templates/parametric images, skipping...
+010_CreatePopulationTemplates was performed
+
+====================================================================================
+Printing file reports... Check this for a summary of missing files
+Detected: no FLAIR : MoCo results : M0 
+Checking native space: anat files:   , ASL files:   
+Checking common space: anat files:   , ASL files:   , checking lock files:   
+Done generating file reports
+====================================================================================
+Too few subjects (1) to create population-based analysis mask
+020_CreateAnalysisMask was performed
+No multiple sites found, BiasField creation and normalization skipped
+030_CreateBiasfield was performed
+Loading & saving individual parameter files...  
+[Warning: Parms.RepetitionTime had multiple values] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_stat_GetDICOMStatistics', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_Population\xASL_stat_GetDICOMStatistics.m', 90)" style="font-weight:bold">xASL_stat_GetDICOMStatistics</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_Population\xASL_stat_GetDICOMStatistics.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Population', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_Population.m', 135)" style="font-weight:bold">xASL_module_Population</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_Population.m',135,0)">line 135</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 394)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ProcessMaster', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m', 89)" style="font-weight:bold">ExploreASL_ProcessMaster</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m',89,0)">line 89</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m', 105)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m',105,0)">line 105</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m', 14)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m',14,0)">line 14</a>)] 
+
+Printing summary of ASL4D DICOM values
+Loading & saving individual parameter files...  
+
+Printing summary of M0 DICOM values
+Loading AcquisitionTimes:  
+
+040_GetDICOMStatistics was performed
+Printing csv-files with volume statistics...  
+
+050_GetVolumeStatistics was performed
+Collecting motion metadata with motion statistics:  
+
+Saving motion plot to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\3_00_Population_Module\Patient\derivatives\ExploreASL\Population\MotionASL\Overview_motion_pair-exclusion.jpg
+060_GetMotionStatistics was performed
+Loading & saving individual parameter files...  
+
+065_GetRegistrationStatistics was performed
+Participants.tsv (BIDS) detected, loading...
+Loading GM_vol:  
+
+Loading WM_vol:  
+
+Loading CSF_vol:  
+
+Loading GM_ICVRatio:  
+
+Loading GMWM_ICVRatio:  
+
+Loading MeanMotion:  
+
+Loading files to computing intra-scan reproducibility...  
+
+We can detect longitudinal/challenge effects larger than 0 mL/100g/min (=0%)
+We can detect longitudinal/challenge effects larger than 0 % (=0%)
+We can detect cross-sectional effects larger than 0.0811 mL/100g/min (=0.135%)
+We can detect cross-sectional effects larger than 0.00511 % (=0.0208%)
+Digital Reference Object ASL-DRO detected
+3D_GRASE sequence detected
+Converting masks:   
+
+All ASL-masking applied (susceptibility mask, vascular mask, tissue-specific mask)
+Digital Reference Object ASL-DRO detected
+3D_GRASE sequence detected
+Using subject-specific susceptibility mask
+Preparing ROI-based qCBF_StandardSpace_TotalGM_n=1_04-Jul-2021 statistics:
+Expanding ROIs for PVC:    
+Computing ROI data:   
+
+Digital Reference Object ASL-DRO detected
+3D_GRASE sequence detected
+Converting masks:   
+
+All ASL-masking applied (susceptibility mask, vascular mask, tissue-specific mask)
+Digital Reference Object ASL-DRO detected
+3D_GRASE sequence detected
+Using subject-specific susceptibility mask
+Preparing ROI-based qCBF_StandardSpace_DeepWM_n=1_04-Jul-2021 statistics:
+Expanding ROIs for PVC:    
+Computing ROI data:   
+
+070_GetROIstatistics was performed
+Sorting ASLCheck QC images for spatial CoV:   
+080_SortBySpatialCoV was performed
+
+G-zZzZipping 44 files
+Gzipping Niftis Successful...
+
+090_DeleteAndZip was performed
+
+Job-iteration 1 stopped at 04-Jul-2021 17:53:58 and took 30 seconds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

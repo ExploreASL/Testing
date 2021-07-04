@@ -1,0 +1,8 @@
+participant_id	session	RepetitionTime	EchoTime	NumberOfTemporalPositions	MRScaleSlope	RescaleSlopeOriginal	RescaleIntercept	Scanner	SliceReadoutTime
+sub-001	ASL_1	10000	10	n/a	n/a	n/a	n/a	n/a	n/a
+									
+mean		10000	10	n/a	n/a	n/a	n/a	n/a	n/a
+SD		0	0	n/a	n/a	n/a	n/a	n/a	n/a
+"CV (coeff var, %)"		0	0	n/a	n/a	n/a	n/a	n/a	n/a
+up_threshold (mean+3SD)		10000	10	n/a	n/a	n/a	n/a	n/a	n/a
+lo_threshold (mean-3SD)		10000	10	n/a	n/a	n/a	n/a	n/a	n/a
