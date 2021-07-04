@@ -1,0 +1,297 @@
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=== Subject: sub-001, Module: xASL_module_Structural,  04-Jul-2021 17:10:08 ===
+
+Cleaning data to rerun subject sub-001
+No SessionID provided, finding session dirs automatically:
+nRemoving lock folders:   
+Restoring backupped _ORI (original) files:   
+Deleting native space CAT12 temporary folders:   
+Deleting native space files for module 1:   
+Deleting native space files for module 2:   
+Deleting all standard space files for module 1
+Deleting all standard space files for module 2
+
+Removing x-struct and QC-file
+Clipped maximal intensity from 19.5828 to 19.0915
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+Automatic alignment with center of mass: skipping, was too close
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\ASL4D.nii is co-registered
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\ASL_1\M0.nii is co-registered
+
+------------------------------------------------------------------------------------------
+
+Rigid-body registering T1.nii to T1.nii
+Initialising batch system... [Warning: Could not get change notification handle for
+M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\matlabbatch\@cfg_exbranch.
+Type 'help changeNotification' for more info.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cat_conf_stools>cat_surf_spm_cfg_con', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\cat_conf_stools.m', 163)" style="font-weight:bold">cat_conf_stools>cat_surf_spm_cfg_con</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\cat_conf_stools.m',163,0)">line 163</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cat_conf_stools', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\cat_conf_stools.m', 98)" style="font-weight:bold">cat_conf_stools</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\cat_conf_stools.m',98,0)">line 98</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('tbx_cfg_cat', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\tbx_cfg_cat.m', 96)" style="font-weight:bold">tbx_cfg_cat</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\tbx_cfg_cat.m',96,0)">line 96</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_cfg', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\config\spm_cfg.m', 114)" style="font-weight:bold">spm_cfg</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\config\spm_cfg.m',114,0)">line 114</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cfg_mlbatch_appcfg', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\config\cfg_mlbatch_appcfg.m', 9)" style="font-weight:bold">cfg_mlbatch_appcfg</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\config\cfg_mlbatch_appcfg.m',9,0)">line 9</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cfg_util>local_initapps', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\matlabbatch\cfg_util.m', 1456)" style="font-weight:bold">cfg_util>local_initapps</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\matlabbatch\cfg_util.m',1456,0)">line 1456</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cfg_util', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\matlabbatch\cfg_util.m', 743)" style="font-weight:bold">cfg_util</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\matlabbatch\cfg_util.m',743,0)">line 743</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_jobman', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\spm_jobman.m', 190)" style="font-weight:bold">spm_jobman</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\spm_jobman.m',190,0)">line 190</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('spm_jobman', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\spm_jobman.m', 108)" style="font-weight:bold">spm_jobman</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\spm_jobman.m',108,0)">line 108</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_spm_coreg', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_spm_coreg.m', 128)" style="font-weight:bold">xASL_spm_coreg</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_spm_coreg.m',128,0)">line 128</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_wrp_LinearReg_T1w2MNI', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_Structural\xASL_wrp_LinearReg_T1w2MNI.m', 90)" style="font-weight:bold">xASL_wrp_LinearReg_T1w2MNI</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\SubModule_Structural\xASL_wrp_LinearReg_T1w2MNI.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_module_Structural', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_Structural.m', 202)" style="font-weight:bold">xASL_module_Structural</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Modules\xASL_module_Structural.m',202,0)">line 202</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration>runIteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 394)" style="font-weight:bold">xASL_Iteration>runIteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',394,0)">line 394</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('xASL_Iteration', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m', 100)" style="font-weight:bold">xASL_Iteration</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\Functions\xASL_Iteration.m',100,0)">line 100</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_ProcessMaster', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m', 43)" style="font-weight:bold">ExploreASL_ProcessMaster</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_ProcessMaster.m',43,0)">line 43</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL_Master', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m', 105)" style="font-weight:bold">ExploreASL_Master</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL_Master.m',105,0)">line 105</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ExploreASL', 'M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m', 14)" style="font-weight:bold">ExploreASL</a> (<a href="matlab: opentoline('M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\ExploreASL.m',14,0)">line 14</a>)] 
+done.
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Estimate'
+
+SPM12: spm_coreg (v6435)                           17:10:57 - 04/07/2021
+========================================================================
+Smoothing [2 2 2] into [0 0 0] FWHM resolution
+Smoothing [2 2 2] into [0 0 0] FWHM resolution for scan 1
+Registering scan 1...  
+, 
+Completed                               :          17:11:16 - 04/07/2021
+Done    'Coregister: Estimate'
+Done
+
+020_LinearReg_FLAIR2T1w: No FLAIR, T2w, or T1w-c data found, skipping registering them to T1w.
+WMH segmentation already existing, or FLAIR.nii missing, skipping FLAIR biasfield correction
+040_LST_Segment_FLAIR_WMH: No FLAIR data found, skipping...
+050_LesionFilling: No FLAIR data found, skipping...
+No Lesion*.nii specified, cost function masking skipped
+
+
+-----------------------------------------------------------------------
+Running SPM job 'CAT12: Segmentation'
+Loading TPM priors
+
+------------------------------------------------------------------------
+CAT12.7-Beta r1615: 1/1:   .\Patient\derivatives\ExploreASL\sub-001\T1.n
+------------------------------------------------------------------------
+Initializing CAT pre-processingSANLM denoising (medium):                                            29s
+Initializing CAT pre-processingAPP: Rough bias correction:                                       
+  Initialize                                                          5s
+  Estimate background                                                 3s
+  Initial correction                                                  5s
+  Refine background                                                   3s
+  Final correction                                                    4s
+  Final scaling                                                       4s
+                                                                     30s
+Affine registration                                                  17s
+Affine registration                                                   7s
+SPM preprocessing 1 (estimate 1):                                    84s
+SPM preprocessing 1 (estimate 2):                                    45s
+Initiate CAT12 main settings:                                     DARTEL enabled
+SPM preprocessing 2 (write):                                      
+  Write Segmentation                                              Working on planes...   Normalise to sum to 1...      19s
+  Update Segmentation                                             Clean Up 1:   
+Also clean up the CSF:   
+Some slice-work:      28s
+  Update Skull-Stripping                                             27s
+  Update probability maps                                         Update probabiliy maps
+correct probability maps to 100%
+head to WM correction
+head to GM correction
+remove brain tissues outside the brainmask ...
+spm_MRF:                                                          MRF iterations:   
+    5s
+                                                                      0s
+Global intensity correction:                                      intensity scaling for gradient estimation:      13s
+SANLM denoising after intensity normalization (medium):              12s
+Fast registration                                                 
+
+Optimized Shooting registration with 3.00:0.00:3.00 mm:           
+  Template: "M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\templates_volumes\Template_0_IXI555_MNI152_GS.nii"
+    1 | 3.00 | 0.0584  0.0000  0.0584
+    2 | 3.00 | 0.0579  0.0049  0.0628
+   12 | 3.00 | 0.0554  0.0001  0.0555
+   13 | 3.00 | 0.0511  0.0018  0.0528
+   14 | 3.00 | 0.0503  0.0022  0.0526
+   15 | 3.00 | 0.0498  0.0026  0.0523
+Shooting registration with 3.00:0.00:3.00 mm takes:                  17s
+  Prepare output                                                      6s
+                                                                     23s
+Local adaptive segmentation (LASstr=0.50):                        
+  Prepare maps                                                        5s
+  Prepare partitions                                                  2s
+  Prepare segments (LASmod = 1.00)                                   12s
+  Estimate local tissue thresholds (WM)                              21s
+  Estimate local tissue thresholds (GM)                              18s
+  Estimate local tissue thresholds (CSF/BG)                           4s
+  Intensity transformation                                           63s
+  SANLM denoising after LAS (medium)                                 23s
+                                                                     23s
+ROI segmentation (partitioning):                                  
+  Atlas -> subject space                                             11s
+  Major structures                                                    6s
+  Ventricle detection                                                 5s
+  Blood vessel detection                                              9s
+  WMH detection (WMHCstr=0.50 > WMHCstr'=0.00)                       36s
+  Manual stroke lesion detection                                      0s
+  Closing of deep structures                                          2s
+  Side alignment                                                      4s
+  Final corrections                                                   2s
+                                                                     76s
+Blood vessel correction (BVCstr=0.50):                                0s
+prepare data for segmentation:  Amap using initial SPM12 segmentations (MRF filter strength 0.01):   25s
+    AMAP peaks: [CSF,GM,WM] = [0.55±0.21,0.67±0.01,1.00±0.01]
+Clean Up 1:   
+Also clean up the CSF:   
+Some slice-work:   Final cleanup (gcutstr=0.25):                                     
+  Level 1 cleanup (ROI estimation)                                    4s
+  Level 1 cleanup (brain masking)                                     1s
+  Level 2 cleanup (CSF correction)                                    1s
+  Level 3 cleanup (CSF/WM PVE)                                        1s
+                                                                      7s
+No Lesion*.nii specified, not saving the segmentation before masking
+
+Cleaning up NaNs in image:  0%
+
+
+Optimized Shooting registration with 2.50:-0.25:1.50 mm (regstr=0.50):
+  Template: "M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\toolbox\cat12\templates_volumes\Template_0_IXI555_MNI152_GS.nii"
+    1 | 2.50 | 0.0545  0.0000  0.0545
+    2 | 2.50 | 0.0544  0.0002  0.0546
+   16 | 2.25 | 0.0483  0.0001  0.0485
+   17 | 2.25 | 0.0453  0.0013  0.0466
+   18 | 2.25 | 0.0441  0.0020  0.0462
+   30 | 2.00 | 0.0433  0.0023  0.0456
+   31 | 2.00 | 0.0400  0.0034  0.0434
+   32 | 2.00 | 0.0390  0.0041  0.0431
+Saving GS intermediate step 3 to a file: M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\mri\y_T1_3.nii
+   44 | 1.75 | 0.0380  0.0042  0.0423
+   45 | 1.75 | 0.0360  0.0051  0.0410
+   46 | 1.75 | 0.0355  0.0055  0.0409
+   58 | 1.50 | 0.0348  0.0053  0.0401
+   59 | 1.50 | 0.0320  0.0065  0.0385
+   60 | 1.50 | 0.0314  0.0071  0.0385
+Shooting registration with 2.50:-0.25:1.50 mm takes:                198s
+  Prepare output                                                      6s
+                                                                    204s
+  Jacobian determinant (RMS):  0.282431 
+           Template Matching:  0.094236 
+Cleaning up NaNs in image:  0%
+Write result maps:                                                Saving the subject-DARTEL transformation as NIfTI
+   25s
+Quality check:                                                        7s
+Saving PDF report:   to: M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\report\catreport_T1.pdf
+
+------------------------------------------------------------------------
+CAT12 preprocessing took 13 minute(s) and 52 second(s).
+Image Quality Rating (IQR):  86.66% (B)
+------------------------------------------------------------------------
+
+Done    'CAT12: Segmentation'
+Done
+
+Cleaning up NaNs in image:  0%
+Reslice structural images & move to Population folder
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using 2nd B-spline interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\Population\rT1_sub-001.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\c1T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\Population\rc1T1_sub-001.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\c2T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\Population\rc2T1_sub-001.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\c3T1.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\Population\rc3T1_sub-001.nii
+ Combining transformations:
+Segmentation transformation y_T1.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Trilinear interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\WMH_SEGM.nii skipped, was non-existing
+Transforming skipped, no files entered
+Modulating PV images in standard space
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+GM volume in native/standard space: 1154790, 1151177. Difference -0.31%
+WM volume in native/standard space: 593692, 595845. Difference 0.36%
+CSF volume in native/standard space: 124608, 132793. Difference 6.57%
+Couldnt load M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\x.mat
+Computing anatomical QC parameters from the Preprocessed Connectome Project (PCP) QA Protocol
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Nearest Neighbor interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\MapsAdded\CentralWM_QC.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\CentralWM_QC.nii
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\ExploreASL\External\SPMmodified\MapsAdded\LeftRight.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\LeftRight.nii
+ Combining transformations:
+
+------------------------------------------------------------------------------------------
+Reslicing T1.nii to y_T1.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:25:33 - 04/07/2021
+========================================================================
+Completed                               :          17:25:34 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+Inverse segmentation transformation y_T1.nii of sub-001, to space: T1.nii
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+
+------------------------------------------------------------------------------------------
+Reslicing CentralWM_QC.nii to T1.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:25:43 - 04/07/2021
+========================================================================
+Completed                               :          17:25:44 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\CentralWM_QC.nii
+
+------------------------------------------------------------------------------------------
+Reslicing LeftRight.nii to T1.nii using Nearest Neighbor interpolation
+
+-----------------------------------------------------------------------
+Running SPM job 'Coregister: Reslice'
+
+SPM12: spm_reslice (v7141)                         17:25:44 - 04/07/2021
+========================================================================
+Completed                               :          17:25:45 - 04/07/2021
+Done    'Coregister: Reslice'
+Done
+
+xASL_Move: overwriting M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\LeftRight.nii
+
+------------------------------------------------------------------------------------------
+SPM deformation utility executed, using Nearest Neighbor interpolation
+Transforming M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\sub-001\CentralWM_QC.nii to M:\SoftwareDevelopment\MATLAB\m.stritt\Server_xASL\Testing\UnitTesting\dro_files\1_0_Structural_Module\Patient\derivatives\ExploreASL\Population\CentralWM_QC_sub-001.nii
+ Combining transformations:
+Segmentation transformation y_T1.nii of sub-001
+
+-----------------------------------------------------------------------
+Running SPM job 'Deformations'
+Done    'Deformations'
+Done
+
+Saving QC images
+Collecting QC parameters...
+LR flip found for sub-001
+Printing ExploreASL PDF report:   
+
+Job-iteration 1 stopped at 04-Jul-2021 17:25:58 and took 950 seconds
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
